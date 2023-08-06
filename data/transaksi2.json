@@ -1,0 +1,62 @@
+[
+  {
+    "tanggal": "2022-01-01",
+    "menu": "Kopi Hitam",
+    "total": 3000
+  },
+  {
+    "tanggal": "2022-01-01",
+    "menu": "Nasi Teriyaki",
+    "total": 13000
+  },
+  {
+    "tanggal": "2022-01-01",
+    "menu": "Teh",
+    "total": 12000
+  },
+  {
+    "tanggal": "2022-01-01",
+    "menu": "Kopi Hitam",
+    "total": 3000
+  },
+  {
+    "tanggal": "2022-01-01",
+    "menu": "Kopi Hitam",
+    "total": 3000
+  },
+  {
+    "tanggal": "2022-01-01",
+    "menu": "Mie Freno",
+    "total": 20000
+  },
+  {
+    "tanggal": "2022-01-01",
+    "menu": "Nasi Goreng",
+    "total": 30000
+  },
+  {
+    "tanggal": "2022-01-01",
+    "menu": "Nasi Goreng Mawut",
+    "total": 26000
+  },
+  {
+    "tanggal": "2022-01-01",
+    "menu": "Nasi Teriyaki",
+    "total": 13000
+  },
+  {
+    "tanggal": "2022-01-01",
+    "menu": "Nasi Goreng",
+    "total": 10000
+  },
+  {
+    "tanggal": "2022-01-01",
+    "menu": "Nasi Teriyaki",
+    "total": 39000
+  },
+  {
+    "tanggal": "2022-01-01",
+    "menu": "Kopi Hitam",
+    "total": 3000
+  }
+]
