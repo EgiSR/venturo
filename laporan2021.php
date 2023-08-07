@@ -23,6 +23,15 @@ $menu = json_decode($data, true);
       $rekap[$menu1]['total'] = $total;
     }
   }
+
+  for ($bulan = 1; $bulan <= 12; $bulan++) {
+    foreach ($menu as $row) {
+        $menu1 = $row['menu'];
+        if (!isset($rekap[$menu1][$bulan])) {
+            $rekap[$menu1][$bulan] = 0;
+        }
+    }
+}
    
 
 // $data2 = file_get_contents('data/transaksi.json');

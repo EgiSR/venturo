@@ -23,6 +23,15 @@ $json = file_get_contents('data/transaksi2.json');
       $rekap[$menu1]['total'] = $total;
     }
   }
+
+  for ($bulan = 1; $bulan <= 12; $bulan++) {
+    foreach ($menu as $row) {
+        $menu1 = $row['menu'];
+        if (!isset($rekap[$menu1][$bulan])) {
+            $rekap[$menu1][$bulan] = 0;
+        }
+    }
+}
 ?>
 
 <!DOCTYPE html>
@@ -118,7 +127,15 @@ $json = file_get_contents('data/transaksi2.json');
                                             <th><?=$rekap[$row['menu']][10];?></th>
                                             <th><?=$rekap[$row['menu']][11];?></th>
                                             <th><?=$rekap[$row['menu']][12];?></th>
-                                            <th><?=$rekap[$row['menu']]['total'];?></th>
+                                            <th>
+                                                <?php
+                                                    if (isset($rekap[$row['menu']]['total'])) {
+                                                        echo $rekap[$row['menu']]['total'];
+                                                    } else {
+                                                        echo 0;
+                                                    }
+                                                ?>
+                                            </th>
                                         </tr>
                                         <?php endforeach; ?>
                                     </tbody>
